@@ -2,7 +2,7 @@
 % Roll no.: 72
 clc;
 clf;
-N = input("Enter a value:");
+N = input("Enter a value:"); %N=7
 n1 = 0:2*N;
 x1 = n1 >= 0;
 x2 = n1 >= N;
