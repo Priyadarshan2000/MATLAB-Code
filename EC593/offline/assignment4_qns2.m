@@ -16,7 +16,7 @@ box off;
 disp('The x(n) Sequence:');
 disp(x);
 
-h = input('Enter Input Sequence for Signal h(n): '); %[1 2 1 1];
+h = input('Enter Input Sequence for Signal h(n): '); %[1 2];
 l2=length(h);
 n2=0:(l2-1);
 subplot(3,1,2)
